@@ -1,0 +1,21 @@
+entero cont = 0, temp = 1, tipo=0
+imprimir ("Ingresa el numero")
+leer(num)
+hacer 
+	inicio
+		inc cont
+		temp = num%cont
+		si (temp != 0)
+		inicio
+			tipo++
+		fin
+	fin
+mientras (cont<num)
+si (tipo = 1)
+inicio
+	imprimir ("El numero es primo")
+fin
+otro
+inicio
+	imprimir ("El numero no es primo")
+fin
